@@ -38,7 +38,7 @@ def rAgeOld(fage):
     return None
 
 def ConvertUid(uid):
-    _params ={'access_token': '17da724517da724517da72458517b8abce117da17da72454d235c274f1a2be5f45ee711',
+    _params ={'access_token': 'access_token',
               'user_ids': uid,
               'fields'  : 'bdate',
                'v'      : '5.71' }
@@ -60,7 +60,7 @@ def ConvertUid(uid):
 
 def rAllFriends(uid):
 
-    _params ={'access_token': '17da724517da724517da72458517b8abce117da17da72454d235c274f1a2be5f45ee711',
+    _params ={'access_token': 'access_token',
               'user_id': uid,
               'fields'  : 'bdate,sex',
                'v'      : '5.71' }
